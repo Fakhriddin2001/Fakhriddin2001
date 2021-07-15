@@ -1,0 +1,14 @@
+@media only screen and (max-width: 640px) {
+    main {
+        width: 90%;
+        padding: 1%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    div.photo {
+        width: calc(100% - 80px);
+        height: calc((70vw - 80px) / 9 * 16);
+        margin: 10px;
+    }
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+}
+body {
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: regular;
+    src: url(LondrinaSolid-Regular.ttf);
+}
+
+main {
+    margin: 0 auto;
+    padding: 3%;
+    background-color: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
+    width: 100%;
+    text-decoration: underline;
+}
+div.photo {
+    width: calc(50% - 45px);
+    height: calc((35vw - 45px) / 16 * 9);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+    background-color: yellowgreen;
+    margin: 20px;
+}
+div.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+.photo1 {
+    background-image: url(images/1.jpg);
+}
+.photo2 {
+    background-image: url(images/2.jpg);
+}
+.photo3 {
+    background-image: url(images/3.jpg);
+}
+.photo4 {
+    background-image: url(images/4.jpg);
+}
+.photo5 {
+    background-image: url(images/5.jpg);
+}
+.photo6 {
+    background-image: url(images/6.jpg);
+}
+.photo7 {
+    background-image: url(images/7.jpg);
+}
+.photo8 {
+    background-image: url(images/8.jpg);
+}
+p {
+    margin: 3%;
+    padding: 1%;
+    letter-spacing: 1px;
+    font-style: italic;   
+}
+a {
+    padding: 3%;
+}
